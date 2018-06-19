@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<w:RotarySelectorPage xmlns="http://xamarin.com/schemas/2014/forms"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                      xmlns:w="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+                      x:Class="WearableUIGallery.TC.TCRotarySelectorPage"
+                      x:Name="MyRotarySelector"
+                      BindingContext="{x:Reference MyRotarySelector}"
+                      >
+    <w:RotarySelectorPage.Items>
+        <w:RotarySelectorItem Text="Text_1" SubText="SubText_1" ItemIcon="image/icon56x56_1.png"
+                              Icon="image/icon56x56_1.png"
+                              Command="{Binding ClickCommand}"/>
+        <w:RotarySelectorItem Text="Text_2" SubText="SubText_2" ItemIcon="image/icon56x56_2.png"
+                              Icon="image/icon56x56_2.png"
+                              IconAlphaBlendingColor="Pink"
+                              Command="{Binding ClickCommand}"/>
+    </w:RotarySelectorPage.Items>
+</w:RotarySelectorPage>

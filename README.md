@@ -38,6 +38,7 @@ The Tizen Wearable CircularUI project provides you the following UI controls:
 - PopupEntry : The PopupEntry is a class that extends Xamarin.Forms.Entry. It makes a new layer when editing text on the entry.
 - Toast : A popup for simple feedback.
 - TwoButtonPage : A subclass of Xamarin.Forms.Page has two buttons on the left and right side of the circular screen.
+- RotarySelectorPage : The RotarySelectorPage is a Page that shows the menu in a circle screen.
 
 ![widgets](doc/design/data/widgets.png)
 
